@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Esta es una Calculadora de Matematica Basica">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./descuentos.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');</style>
+    <title> BasicMath | Descuentos </title>
+
+</head>
+
+<body>
+    <header>
+        <h1> Porcentajes y Descuentos </h1>
+        <p>Este es el segundo Taller del curso</p>
+    </header>
+
+    <section>
+        <h2>
+            Cuanto debe pagar nuestro Cliente?
+        </h2>
+
+        <form action="">
+            
+            <label for="InputPrice"> Ingresa precio del producto </label>
+            <input id="InputPrice" type="number">
+            
+            <label for="InputDiscount"> Ingresa descuento a Aplicar </label>
+            <input id="InputDiscount" type="number">
+            
+            <label for="InputCoupon"> Agrega tu cupón de descuento aqui </label> 
+            <input id="InputCoupon" type="number" />
+
+            <button type="button" onclick="calcularPrecioConDescuento()">
+                Calcular el Precio con Descuento
+            </button>
+
+            <p id="PriceToPay"></p>
+
+        </form>
+
+    </section>
+
+    <script src="./descuentos.js">
+
+    </script>
+
+</body>
+
+</html>
